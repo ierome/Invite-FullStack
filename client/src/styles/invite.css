@@ -1,0 +1,56 @@
+#mainWrapper {
+    width: 1300px;
+
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#markButtons {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+#person {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#personCard {
+    width: 300px;
+    height: 400px;
+    background-color: #ccc;
+    padding-top: 40px;
+}
+#personCard img {
+    border-radius: 100px;
+}
+#markButtons {
+    width: 300px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: -5px;
+}
+#goingButton {
+    width: 150px;
+    height: 30px;
+    border: 1px solid #ccc;
+    text-align: center;
+    color: white;
+    background-color: green;
+}
+#notGoingButton {
+    width: 150px;
+    height: 30px;
+    border: 1px solid #ccc;
+    text-align: center;
+    color: white;
+    background-color: red;
+}
+a {text-decoration: none; background-color: none; color: white; }

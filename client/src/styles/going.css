@@ -1,0 +1,15 @@
+#userWrap {
+    width: 1300px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+#userCard {
+    margin: 20px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 10px;
+}
